@@ -1,0 +1,19 @@
+{
+  "name": "vue-parcel-code_split",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html --open -d dist/dev",
+    "build": "parcel build index.html --public-url ./ -d dist/product"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.1.0",
+    "parcel-bundler": "^1.7.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  }
+}
