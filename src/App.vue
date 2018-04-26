@@ -20,7 +20,6 @@ export default {
     let vm = this
     window.addEventListener('keyup',function (e) {
       let key = String.fromCharCode(e.keyCode)
-      console.log(key)
       if (key == 'H') {
         vm.com = 'Header'
       } else if(key == 'F') {
